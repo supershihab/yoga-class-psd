@@ -1,0 +1,864 @@
+/* Mini Devices: Small Phones like Galaxy Folds */
+@media all and (min-width: 279px) and (max-width: 320px){
+/* Code Start */
+    /* ANCHOR Mini HEADER SECTION */
+    .header-section{
+        padding: 0px 0px 40px;
+    }
+
+    .header-section .navbar{
+        padding-top: 0;
+    }
+
+    .header-section .navbar-toggler{
+        margin: 20px;
+    }
+    .header-section .site-logo{
+        margin: 0;
+        background-color: var(--offWhite);
+    }
+
+    .header-section .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: .9rem;
+    }
+    .header-section .navbar-light-bg ul li a{
+        font-size: 1rem;
+    }
+
+    .header-section .navbar-light-bg ul li a:hover,
+    .header-section .navbar-light-bg ul li a:focus{
+        font-size: 1.1rem;
+    }
+
+    /* ANCHOR Mini HERO SECTION */
+    .hero-section .hero-text{
+        padding: 40px 0px 0px;
+    }
+    .hero-section .hero-text h1{
+        font-size: 2rem;
+    }
+    .hero-section .hero-text p{
+        font-size: .9rem;
+    }
+    .hero-section .hero-text a{
+        font-size: .6rem;
+    }
+    /* MINI DESIGN */
+    .design{
+        width: 25%;
+        top: 108%;
+    }
+
+    /* ANCHOR Mini CLASS SECTION */
+    .class-section{
+        padding: 40px 0px;
+    }
+
+    .class-section .class-header-text h2{
+        font-size: 2rem;
+    }
+    .class-section .class-header-text p{
+        font-size: 1rem;
+    }
+    .class-section .class-body .class-body-text h4{
+        font-size: 1.4rem;
+    }
+    .class-section .class-body .class-body-text p{
+        font-size: .9rem;
+        margin: 0px 0px 20px;
+    }
+
+    /* ANCHOR MINI STATS SECTION */
+    .stats-section{
+        padding: 0px 0px 40px;
+    }
+
+    .stats-section .stats-header{
+        margin: 40px 0px 40px;
+    }
+    .stats-section .stats-header h2{
+        font-size: 2rem;
+    }
+    .stats-section .stats-header p{
+        font-size: 1rem;
+    }
+
+    .stats-section .stats-circle {
+        margin-bottom: 20px;
+    }
+    .stats-section .stats-circle h4{
+        font-size: 2rem;
+    }
+    .stats-section .stats-circle p{
+        font-size: .5rem;
+        font-weight: 600;
+    }
+
+    /* ANCHOR Mini INSTRUCTOR SECTION */
+    .instructor-section .instructor-text{
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .instructor-section .instructor-text h2{
+        font-size: 2rem;
+    }
+    .instructor-section .instructor-text p{
+        font-size: 1rem;
+    }
+    .instructor-section .instructor-text a{
+        font-size: .6rem;
+        padding: 5px 10px;
+    }
+
+    /* ANCHOR Mini EXPERIENCE SECTION */
+    .experience-section{
+        padding: 40px 10px;
+    }
+    .experience-section .experience-text{
+        padding: 40px 0px 0px;
+        text-align: center;
+    }
+    .experience-section .experience-text h2{
+        font-size: 2rem;
+    }
+    .experience-section .experience-text p{
+        font-size: 1rem;
+    }
+    .experience-section .experience-text a{
+        font-size: .6rem;
+        padding: 5px 10px;
+    }
+
+    /* ANCHOR Mini PRICING SECTION */
+    .pricing-section{
+        padding: 40px 0px;
+    }
+
+    .pricing-section .pricing-header-text h2{
+        font-size: 2rem;
+    }
+    .pricing-section .pricing-header-text p{
+        font-size: 1rem;
+    }
+
+    .pricing-section .pricing-card .pricing-card-header h4{
+        font-size: 1.2rem;
+    }
+    .pricing-section .pricing-card .pricing-card-header p{
+        font-size: 1.1rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text p{
+        font-size: .7rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text a{
+        padding: 5px 10px;
+        font-size: .7rem;
+    }
+
+    /* ANCHOR Mini TRAINER SECTION */
+    .trainer-section{
+        padding: 40px 0px;
+    }
+    .trainer-section .trainer-text p{
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+    .trainer-section .trainer-text h4{
+        font-size: 1.4rem;
+    }
+
+    /* ANCHOR Mini SUBSCRIBE SECTION */
+    .subscribe-section{
+        padding: 40px 0px;
+    }
+    .subscribe-section .subscribe-header-text h2{
+        font-size: 2rem;
+    }
+    .subscribe-section .subscribe-header-text p{
+        font-size: 1rem;
+    }
+    .subscribe-section .subscribe-email input{
+        display: block;
+        margin: 0 auto 10px;
+        width: 80%;
+    }
+    .subscribe-section .subscribe-email .subscribe-btn{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        font-size: .9rem;
+        padding: 5px;
+    }
+
+    /* ANCHOR Mini FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+
+    .footer-section .footer-text h5{
+        font-size: 1.1rem;
+        margin: 0;
+    }
+    .footer-section .footer-text p,
+    .footer-section .footer-text ul li a{
+        font-size: .8rem;
+    }
+    .footer-section .footer-text .footer-copyright{
+        font-size: .6rem;
+    }
+
+/* Code End*/
+}
+
+/* Extra Small Devices: Normal Phones */
+@media all and (min-width: 321px) and (max-width: 480px){
+/* Code Start */
+    /* ANCHOR Extra Small HEADER SECTION */
+    .header-section{
+        padding: 0px 0px 40px;
+    }
+
+    .header-section .navbar{
+        padding-top: 0;
+    }
+
+    .header-section .navbar-toggler{
+        margin: 20px;
+    }
+    .header-section .site-logo{
+        margin: 0;
+        background-color: var(--offWhite);
+    }
+
+    .header-section .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: .9rem;
+    }
+    .header-section .navbar-light-bg ul li a{
+        font-size: 1rem;
+    }
+
+    .header-section .navbar-light-bg ul li a:hover,
+    .header-section .navbar-light-bg ul li a:focus{
+        font-size: 1.1rem;
+    }
+
+    /* ANCHOR Extra Small HERO SECTION */
+    .hero-section .hero-text{
+        padding: 40px 0px 0px;
+    }
+    .hero-section .hero-text h1{
+        font-size: 3rem;
+    }
+    .hero-section .hero-text p{
+        font-size: 1rem;
+    }
+    .hero-section .hero-text a{
+        font-size: .7rem;
+    }
+
+        /* Extra Small DESIGN */
+        .design{
+            width: 25%;
+            top: 97%;
+            opacity: 40%;
+        }
+
+    /* ANCHOR Extra Small CLASS SECTION */
+    .class-section{
+        padding: 40px 0px;
+    }
+
+    .class-section .class-header-text h2{
+        font-size: 2rem;
+    }
+    .class-section .class-header-text p{
+        font-size: 1rem;
+    }
+    .class-section .class-body .class-body-text h4{
+        font-size: 1.4rem;
+    }
+    .class-section .class-body .class-body-text p{
+        font-size: .9rem;
+        margin: 0px 0px 20px;
+    }
+
+    /* ANCHOR Extra Small STATS SECTION */
+    .stats-section{
+        padding: 0px 0px 40px;
+    }
+
+    .stats-section .stats-header{
+        margin: 50px 0px 40px;
+    }
+    .stats-section .stats-header h2{
+        font-size: 2rem;
+    }
+    .stats-section .stats-header p{
+        font-size: 1rem;
+    }
+
+    .stats-section .stats-circle {
+        margin-bottom: 20px;
+    }
+    .stats-section .stats-circle h4{
+        font-size: 2.1rem;
+    }
+    .stats-section .stats-circle p{
+        font-size: .6rem;
+        font-weight: 600;
+    }
+
+    /* ANCHOR Extra Small INSTRUCTOR SECTION */
+    .instructor-section .instructor-text{
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .instructor-section .instructor-text h2{
+        font-size: 2.1rem;
+    }
+    .instructor-section .instructor-text p{
+        font-size: 1.1rem;
+    }
+    .instructor-section .instructor-text a{
+        font-size: .7rem;
+        padding: 6px 12px;
+    }
+
+    /* ANCHOR Extra Small EXPERIENCE SECTION */
+    .experience-section{
+        padding: 40px 10px;
+    }
+    .experience-section .experience-text{
+        padding: 40px 0px 0px;
+        text-align: center;
+    }
+    .experience-section .experience-text h2{
+        font-size: 2.1rem;
+    }
+    .experience-section .experience-text p{
+        font-size: 1.1rem;
+    }
+    .experience-section .experience-text a{
+        font-size: .7rem;
+        padding: 6px 12px;
+    }
+
+    /* ANCHOR Extra Small PRICING SECTION */
+    .pricing-section{
+        padding: 40px 0px;
+    }
+
+    .pricing-section .pricing-header-text h2{
+        font-size: 2.1rem;
+    }
+    .pricing-section .pricing-header-text p{
+        font-size: 1.1rem;
+    }
+
+    .pricing-section .pricing-card .pricing-card-header h4{
+        font-size: 1.3rem;
+    }
+    .pricing-section .pricing-card .pricing-card-header p{
+        font-size: 1.2rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text p{
+        font-size: .8rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text a{
+        padding: 5px 10px;
+        font-size: .8rem;
+    }
+
+    /* ANCHOR Extra Small TRAINER SECTION */
+    .trainer-section{
+        padding: 40px 0px;
+    }
+    .trainer-section .trainer-text p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .trainer-section .trainer-text h4{
+        font-size: 1.5rem;
+    }
+
+    /* ANCHOR Extra Small SUBSCRIBE SECTION */
+    .subscribe-section{
+        padding: 40px 0px;
+    }
+    .subscribe-section .subscribe-header-text h2{
+        font-size: 2.1rem;
+    }
+    .subscribe-section .subscribe-header-text p{
+        font-size: 1.1rem;
+    }
+    .subscribe-section .subscribe-email input{
+        display: block;
+        margin: 0 auto 10px;
+        width: 80%;
+    }
+    .subscribe-section .subscribe-email .subscribe-btn{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    /* ANCHOR Extra Small FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+
+    .footer-section .footer-text h5{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    .footer-section .footer-text p,
+    .footer-section .footer-text ul li a{
+        font-size: .9rem;
+    }
+    .footer-section .footer-text .footer-copyright{
+        font-size: .7rem;
+    }
+
+/* Code End*/
+}
+
+/* Small Devices: Large Phones and Portrait Tablets */
+@media all and (min-width: 481px) and (max-width: 767px){
+/* Code Start */
+    /* ANCHOR Small HEADER SECTION */
+    .header-section{
+        padding: 0px 0px 40px;
+    }
+
+    .header-section .navbar{
+        padding-top: 0;
+    }
+
+    .header-section .navbar-toggler{
+        margin: 20px;
+    }
+    .header-section .site-logo{
+        margin: 0;
+        background-color: var(--offWhite);
+    }
+
+    .header-section .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: .9rem;
+    }
+    .header-section .navbar-light-bg ul li a{
+        font-size: 1rem;
+    }
+
+    .header-section .navbar-light-bg ul li a:hover,
+    .header-section .navbar-light-bg ul li a:focus{
+        font-size: 1.1rem;
+    }
+
+    /* ANCHOR Small HERO SECTION */
+    .hero-section .hero-text{
+        padding: 40px 0px 0px;
+    }
+    .hero-section .hero-text h1{
+        font-size: 4rem;
+    }
+    .hero-section .hero-text p{
+        font-size: 1.1rem;
+    }
+    .hero-section .hero-text a{
+        font-size: .8rem;
+    }
+
+            /* Small DESIGN */
+            .design{
+                width: 25%;
+                top: 106%;
+                opacity: 40%;
+            }
+
+    /* ANCHOR Small CLASS SECTION */
+    .class-section{
+        padding: 40px 0px;
+    }
+
+    .class-section .class-header-text h2{
+        font-size: 2.5rem;
+    }
+    .class-section .class-header-text p{
+        font-size: 1.2rem;
+    }
+    .class-section .class-body .class-body-text h4{
+        font-size: 1.6rem;
+    }
+    .class-section .class-body .class-body-text p{
+        font-size: 1rem;
+        margin: 0px 0px 20px;
+    }
+
+    /* ANCHOR Small STATS SECTION */
+    .stats-section{
+        padding: 0px 0px 40px;
+    }
+
+    .stats-section .stats-header{
+        margin: 50px 0px 40px;
+    }
+    .stats-section .stats-header h2{
+        font-size: 2rem;
+    }
+    .stats-section .stats-header p{
+        font-size: 1rem;
+    }
+
+    .stats-section .stats-circle {
+        margin-bottom: 20px;
+    }
+    .stats-section .stats-circle h4{
+        font-size: 2.2rem;
+    }
+    .stats-section .stats-circle p{
+        font-size: .7rem;
+        font-weight: 600;
+    }
+
+    /* ANCHOR Small INSTRUCTOR SECTION */
+    .instructor-section .instructor-text{
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .instructor-section .instructor-text h2{
+        font-size: 2.2rem;
+    }
+    .instructor-section .instructor-text p{
+        font-size: 1.2rem;
+    }
+    .instructor-section .instructor-text a{
+        font-size: .8rem;
+        padding: 7px 14px;
+    }
+
+    /* ANCHOR Small EXPERIENCE SECTION */
+    .experience-section{
+        padding: 40px 10px;
+    }
+    .experience-section .experience-text{
+        padding: 40px 0px 0px;
+        text-align: center;
+    }
+    .experience-section .experience-text h2{
+        font-size: 2.2rem;
+    }
+    .experience-section .experience-text p{
+        font-size: 1.2rem;
+    }
+    .experience-section .experience-text a{
+        font-size: .8rem;
+        padding: 7px 14px;
+    }
+
+    /* ANCHOR Small PRICING SECTION */
+    .pricing-section{
+        padding: 40px 0px;
+    }
+
+    .pricing-section .pricing-header-text h2{
+        font-size: 2.2rem;
+    }
+    .pricing-section .pricing-header-text p{
+        font-size: 1.2rem;
+    }
+
+    .pricing-section .pricing-card .pricing-card-header h4{
+        font-size: 1.4rem;
+    }
+    .pricing-section .pricing-card .pricing-card-header p{
+        font-size: 1.3rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text p{
+        font-size: .9rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text a{
+        padding: 6px 12px;
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Small TRAINER SECTION */
+    .trainer-section{
+        padding: 40px 0px;
+    }
+    .trainer-section .trainer-text p{
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+    }
+    .trainer-section .trainer-text h4{
+        font-size: 1.6rem;
+    }
+
+    /* ANCHOR Small SUBSCRIBE SECTION */
+    .subscribe-section{
+        padding: 40px 0px;
+    }
+    .subscribe-section .subscribe-header-text h2{
+        font-size: 2.2rem;
+    }
+    .subscribe-section .subscribe-header-text p{
+        font-size: 1.2rem;
+    }
+    .subscribe-section .subscribe-email input{
+        display: block;
+        margin: 0 auto 10px;
+        width: 80%;
+    }
+    .subscribe-section .subscribe-email .subscribe-btn{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.1rem;
+        padding: 5px;
+    }
+
+    /* ANCHOR Small FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+
+    .footer-section .footer-text h5{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .footer-section .footer-text p,
+    .footer-section .footer-text ul li a{
+        font-size: 1rem;
+    }
+    .footer-section .footer-text .footer-copyright{
+        font-size: .8rem;
+    }
+    
+
+/* Code End*/
+}
+
+/* Medium Devices: Landscape Tablets and normal laptops */
+@media all and (min-width: 768px) and (max-width: 1024px){
+/* Code Start */
+    /* ANCHOR Medium HEADER SECTION */
+    .header-section{
+        padding: 0px 0px 40px;
+    }
+
+    .header-section .navbar{
+        padding-top: 0;
+    }
+
+    .header-section .navbar-toggler{
+        margin: 20px;
+    }
+    .header-section .site-logo{
+        margin: 0;
+        background-color: var(--offWhite);
+    }
+
+    .header-section .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: .9rem;
+    }
+    .header-section .navbar-light-bg ul li a{
+        font-size: 1.3rem;
+    }
+
+    .header-section .navbar-light-bg ul li a:hover,
+    .header-section .navbar-light-bg ul li a:focus{
+        font-size: 1.4rem;
+    }
+
+    /* ANCHOR Medium HERO SECTION */
+    .hero-section .hero-text{
+        padding: 40px 0px 0px;
+    }
+    .hero-section .hero-text h1{
+        font-size: 6rem;
+    }
+    .hero-section .hero-text p{
+        font-size: 1.6rem;
+    }
+    .hero-section .hero-text a{
+        font-size: 1.2rem;
+    }
+
+            /* Medium DESIGN */
+            .design{
+                width: 25%;
+                top: 88%;
+                opacity: 40%;
+            }
+
+    /* ANCHOR Medium CLASS SECTION */
+    .class-section{
+        padding: 40px 0px;
+    }
+
+    .class-section .class-header-text h2{
+        font-size: 3rem;
+    }
+    .class-section .class-header-text p{
+        font-size: 1.5rem;
+    }
+    .class-section .class-body .class-body-text h4{
+        font-size: 2rem;
+    }
+    .class-section .class-body .class-body-text p{
+        font-size: 1.5rem;
+        margin: 0px 0px 20px;
+    }
+
+    /* ANCHOR Medium STATS SECTION */
+    .stats-section{
+        padding: 40px 0px 40px;
+    }
+
+    .stats-section .stats-header{
+        margin: 50px 0px 40px;
+    }
+    .stats-section .stats-header h2{
+        font-size: 3rem;
+    }
+    .stats-section .stats-header p{
+        font-size: 1.5rem;
+    }
+
+    .stats-section .stats-circle {
+        margin-bottom: 20px;
+        width: 40%;
+    }
+    .stats-section .stats-circle h4{
+        font-size: 2.5rem;
+    }
+    .stats-section .stats-circle p{
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    /* ANCHOR Medium INSTRUCTOR SECTION */
+    .instructor-section .instructor-text{
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .instructor-section .instructor-text h2{
+        font-size: 3rem;
+    }
+    .instructor-section .instructor-text p{
+        font-size: 1.5rem;
+    }
+    .instructor-section .instructor-text a{
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+
+    /* ANCHOR Medium EXPERIENCE SECTION */
+    .experience-section{
+        padding: 40px 10px;
+    }
+    .experience-section .experience-text{
+        padding: 40px 0px 0px;
+        text-align: center;
+    }
+    .experience-section .experience-text h2{
+        font-size: 3rem;
+    }
+    .experience-section .experience-text p{
+        font-size: 1.5rem;
+    }
+    .experience-section .experience-text a{
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+
+    /* ANCHOR Medium PRICING SECTION */
+    .pricing-section{
+        padding: 40px 0px;
+    }
+
+    .pricing-section .pricing-header-text h2{
+        font-size: 3rem;
+    }
+    .pricing-section .pricing-header-text p{
+        font-size: 1.5rem;
+    }
+
+    .pricing-section .pricing-card .pricing-card-header h4{
+        font-size: 2rem;
+    }
+    .pricing-section .pricing-card .pricing-card-header p{
+        font-size: 1.8rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text p{
+        font-size: 1.5rem;
+    }
+    .pricing-section .pricing-card .pricing-card-text a{
+        padding: 8px 20px;
+        font-size: 1.5rem;
+    }
+
+    /* ANCHOR Medium TRAINER SECTION */
+    .trainer-section{
+        padding: 40px 0px;
+    }
+    .trainer-section .trainer-text p{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .trainer-section .trainer-text h4{
+        font-size: 2.4rem;
+    }
+
+    /* ANCHOR Medium SUBSCRIBE SECTION */
+    .subscribe-section{
+        padding: 40px 0px;
+    }
+    .subscribe-section .subscribe-header-text h2{
+        font-size: 3rem;
+    }
+    .subscribe-section .subscribe-header-text p{
+        font-size: 1.5rem;
+    }
+    .subscribe-section .subscribe-email input{
+        display: block;
+        margin: 0 auto 10px;
+        width: 80%;
+    }
+    .subscribe-section .subscribe-email .subscribe-btn{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.4rem;
+        padding: 5px;
+    }
+
+    /* ANCHOR Medium FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .footer-section .footer-text h5{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    .footer-section .footer-text p,
+    .footer-section .footer-text ul li a{
+        font-size: 1.3rem;
+    }
+    .footer-section .footer-text .footer-copyright{
+        font-size: 1rem;
+    }
+    
+/* Code End*/
+}

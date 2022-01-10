@@ -1,0 +1,584 @@
+:root{
+    --offWhite: #F2F9F4;
+    --lightBlue: #529995;
+    --navBg: #DEEDE8;
+    --navHover: #C1DAD6;
+}
+/* ANCHOR GENERAL CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--offWhite);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* ANCHOR HEADER SECTION */
+.header-section{
+    padding: 0px 0px 80px;
+}
+
+.header-section .navbar{
+    padding-top: 0rem;
+}
+
+.header-section .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.header-section .container-fluid .row{
+    --bs-gutter-x: 0;
+}
+
+.header-section .navbar-light-bg{
+    background-color: var(--navBg);
+}
+
+.header-section .site-logo{
+    background-color: #90D8C5;
+    padding: 20px;
+}
+
+.header-section .navbar-brand{
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+.header-section .navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 7rem;
+}
+
+
+
+.header-section .navbar-light-bg ul li a{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: .6px;
+    line-height: 1;
+}
+
+.header-section .navbar-light-bg ul li a:hover,
+.header-section .navbar-light-bg ul li a:focus{
+    border: 1px solid var(--navHover);
+    background-color: var(--navHover);
+    padding: 5px 10px;
+    font-size: 1.5rem;
+}
+
+/* ANCHOR HERO SECTION */
+.hero-section{
+    width: 100%;
+    padding: 40px 0px;
+    position: relative;
+    z-index: -1;
+}
+.hero-section .hero-img{
+    width: 100%;
+}
+
+.hero-section .hero-text{
+    width: 100%;
+}
+.hero-section .hero-text h1{
+    color: var(--lightBlue);
+    font-size: 7rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+    margin: 0;
+}
+.hero-section .hero-text p{
+    color: var(--lightBlue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: .6px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.hero-section .hero-text a{
+    color: var(--offWhite);
+    background-color: var(--lightBlue);
+    padding: 7px 20px;
+    border: 1px solid var(--lightBlue);
+    border-radius: 16px;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.hero-section .hero-text a:hover,
+.hero-section .hero-text a:focus{
+    background-color: var(--offWhite);
+    color: var(--lightBlue);
+}
+
+/* ANCHOR CLASS SECTION */
+.class-section{
+    width: 100%;
+    background-color: var(--lightBlue);
+    padding: 80px 0px;
+    color: var(--offWhite);
+    position: relative;
+    z-index: -2;
+}
+
+.class-section .class-header-text{
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+}
+.class-section .class-header-text h2{
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.class-section .class-header-text p{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.class-section .class-body{
+    width: 100%;
+}
+.class-section .class-body .class-body-img
+{
+    width: 100%;
+}
+
+.class-section .class-body .class-body-text{
+    width: 100%;
+    margin: 10px 0px 0px;
+}
+.class-section .class-body .class-body-text h4{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.class-section .class-body .class-body-text p{
+    margin: 10px 0px 0px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.2;
+}
+
+/* ANCHOR DESIGN SHAPE */
+.design{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 61%;
+    opacity: 50%;
+}
+
+/* ANCHOR STATS SECTION */
+.stats-section{
+    width: 100%;
+    padding: 80px 0px 200px;
+    color: var(--lightBlue);
+    background: url("../assets/bg-3.png") no-repeat top center;
+    background-size: cover;
+    position: relative;
+    z-index: -6;
+    margin-top: -6%;
+    background-color: #EBEBEB;
+}
+.stats-section .stats-header{
+    width: 100%;
+    margin: 80px 0px;
+}
+.stats-section .stats-header h2{
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.stats-section .stats-header p{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.stats-section .stats-circle{
+    width: 50%;
+    border: 4px solid var(--lightBlue);
+    border-radius: 50%;
+    padding: 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+.stats-section .stats-circle h4{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.stats-section .stats-circle p{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+
+/* ANCHOR INSTRUCTOR SECTION */
+.instructor-section{
+    width: 100%;
+    color: var(--offWhite);
+    background-color: var(--lightBlue);
+}
+
+.instructor-section .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.instructor-section .container-fluid .row{
+    --bs-gutter-x: 0;
+}
+.instructor-section .instructor-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.instructor-section .instructor-text h2{
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.instructor-section .instructor-text p{
+    margin: 0px 0px 40px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+.instructor-section .instructor-text a{
+    color: var(--lightBlue);
+    background-color: var(--offWhite);
+    padding: 20px 60px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border: 1px solid var(--offWhite);
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+.instructor-section .instructor-text a:hover,
+.instructor-section .instructor-text a:focus{
+    background-color: var(--lightBlue);
+    color: var(--offWhite);
+}
+
+
+.instructor-section .instructor-img img{
+    width: 100%;
+}
+
+/* ANCHOR EXPERIENCE SECTION */
+.experience-section{
+    width: 100%;
+    padding: 80px;
+    background-image: url("../assets/Shape.png") no-repeat right center;
+    background-size: cover;
+}
+
+.experience-section .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.experience-section .container-fluid .row{
+    --bs-gutter-x: 0;
+}
+.experience-section .experience-img{
+    width: 100%;
+}
+.experience-section .experience-img img{
+    width: 100%;
+}
+.experience-section .experience-text{
+    padding: 80px;
+    color: var(--lightBlue);
+}
+.experience-section .experience-text h2{
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.experience-section .experience-text p{
+    margin: 0px 0px 40px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+.experience-section .experience-text a{
+    color: var(--offWhite);
+    background-color: var(--lightBlue);
+    padding: 20px 60px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    border: 1px solid var(--lightBlue);
+    border-radius: 6px;
+    letter-spacing: 1px;
+}
+.experience-section .experience-text a:hover,
+.experience-section .experience-text a:focus{
+    background-color: var(--offWhite);
+    color: var(--lightBlue);
+}
+
+
+/* ANCHOR PRICING SECTION */
+.pricing-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: var(--lightBlue);
+    color: var(--offWhite);
+}
+.pricing-section .pricing-header-text{
+    width: 100%;
+    margin: 0px 0px 40px
+}
+.pricing-section .pricing-header-text h2{
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.pricing-section .pricing-header-text p{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.pricing-section .pricing-card{
+    border: 2px solid var(--offWhite);
+    background-color: var(--offWhite);
+    color: var(--lightBlue);
+    border-radius: 5px;
+    padding: 0px 0px 40px;
+    width: 80%;
+    margin: 20px auto;
+}
+.pricing-section .pricing-card .pricing-card-header{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+.pricing-section .pricing-card .pricing-card-header h4{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+.pricing-section .pricing-card .pricing-card-header p{
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+.pricing-section .pricing-card .pricing-card-icon{
+    width: 100%;
+}
+
+.pricing-section .pricing-card .pricing-card-text{
+    margin: 20px 0px 0px;
+}
+.pricing-section .pricing-card .pricing-card-text p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    margin: 0px 0px 20px;
+}
+.pricing-section .pricing-card .pricing-card-text a{
+    color: var(--offWhite);
+    background-color: var(--lightBlue);
+    border: 1px solid var(--lightBlue);
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.pricing-section .pricing-card .pricing-card-text a:hover,
+.pricing-section .pricing-card .pricing-card-text a:focus{
+    color: var(--lightBlue);
+    background-color: var(--offWhite);
+}
+
+.pricing-section .pricing-card:hover .pricing-card-header{
+    background-color: var(--lightBlue);
+    color: var(--offWhite);
+}
+
+/* ANCHOR TRAINER SECTION */
+.trainer-section{
+    width: 100%;
+    padding: 120px 0px;
+    background: url("../assets/bg-sec7.png") no-repeat top center;
+    background-size: cover;
+    color: var(--lightBlue);
+}
+.trainer-section .trainer-img{
+    width: 100%;
+}
+
+.trainer-section .trainer-text{
+    width: 100%;
+    margin: 30px 0px 0px;
+}
+.trainer-section .trainer-text p{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 3rem;
+}
+.trainer-section .trainer-text h4{
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+/* ANCHOR SUBSCRIBE SECTION */
+.subscribe-section{
+    width: 100%;
+    padding: 120px 0px;
+    background-color: var(--lightBlue);
+    color: var(--offWhite);
+}
+
+.subscribe-section .subscribe-header-text{
+    width: 100%;
+    margin: 0px 0px 40px;
+}
+.subscribe-section .subscribe-header-text h2{
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.subscribe-section .subscribe-header-text p{
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.5;
+}
+
+.subscribe-section .subscribe-email{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.subscribe-section .subscribe-email input{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    border: 2px solid var(--offWhite);
+    border-radius: 20px;
+    width: 50%;
+    padding: 10px 20px;
+    z-index: -99;
+}
+.subscribe-section .subscribe-email .subscribe-btn{
+    background-color: var(--offWhite);
+    color: var(--lightBlue);
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 5px 10px 10px;
+    border: 2px solid var(--offWhite);
+    border-radius: 20px;
+    z-index: 4;
+    margin: 0% -8%;
+}
+
+.subscribe-section .subscribe-email .subscribe-btn:hover,
+.subscribe-section .subscribe-email .subscribe-btn:focus{
+    background-color: var(--lightBlue);
+    color: var(--offWhite);
+}
+
+/* ANCHOR FOOTER SECTION */
+.footer-section{
+    width: 100%;
+    padding: 100px 20px 50px;
+    background-color: var(--offWhite);
+    color: var(--lightBlue);
+}
+
+.footer-section .footer-text{
+    width: 100%;
+}
+.footer-section .footer-text h5{
+    font-size: 1.4rem;
+    font-weight: 800;
+    letter-spacing: .6px;
+    line-height: 2;
+}
+.footer-section .footer-text p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.3;
+}
+.footer-section .footer-text .footer-copyright{
+    font-size: .9rem;
+}
+
+.footer-section .footer-text ul li a{
+    color: var(--lightBlue);
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 1.3;
+}
